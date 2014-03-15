@@ -6,8 +6,7 @@
 //  Copyright (c) 2012 NextBusinessSystem Co., Ltd. All rights reserved.
 //
 
-#import "GPXElement.h"
-
+@class GPXElement;
 @class GPXExtensions;
 @class GPXLink;
 

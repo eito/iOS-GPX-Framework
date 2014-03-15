@@ -6,9 +6,6 @@
 //  Copyright (c) 2012 NextBusinessSystem Co., Ltd. All rights reserved.
 //
 
-#import "GPXElement.h"
-
-
 /** Information about the copyright holder and any license governing use of this file. 
     By linking to an appropriate license, you may place your data into the public domain or grant additional usage rights.
  */

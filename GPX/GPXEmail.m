@@ -6,6 +6,7 @@
 //  Copyright (c) 2012 NextBusinessSystem Co., Ltd. All rights reserved.
 //
 
+#import "GPXElement.h"
 #import "GPXEmail.h"
 #import "GPXElementSubclass.h"
 

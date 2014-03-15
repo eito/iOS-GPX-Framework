@@ -6,8 +6,6 @@
 //  Copyright (c) 2012 NextBusinessSystem Co., Ltd. All rights reserved.
 //
 
-#import "GPXElement.h"
-
 @class GPXMetadata;
 @class GPXWaypoint;
 @class GPXRoute;

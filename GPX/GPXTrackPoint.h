@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 NextBusinessSystem Co., Ltd. All rights reserved.
 //
 
-#import "GPXWaypoint.h"
+@class GPXWaypoint;
 
 @interface GPXTrackPoint : GPXWaypoint
 

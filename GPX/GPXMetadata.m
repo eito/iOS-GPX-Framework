@@ -6,13 +6,16 @@
 //  Copyright (c) 2012 NextBusinessSystem Co., Ltd. All rights reserved.
 //
 
+#import "GPXElement.h"
 #import "GPXMetadata.h"
 #import "GPXElementSubclass.h"
+#import "GPXPerson.h"
 #import "GPXAuthor.h"
 #import "GPXCopyright.h"
 #import "GPXLink.h"
 #import "GPXBounds.h"
 #import "GPXExtensions.h"
+#import "GPXType.h"
 
 @implementation GPXMetadata {
     NSString *_timeValue;
@@ -22,7 +25,7 @@
 @synthesize desc = _desc;
 @synthesize author = _author;
 @synthesize copyright = _copyright;
-@synthesize link = _link;
+@synthesize links = _links;
 @synthesize time = _time;
 @synthesize keyword = _keyword;
 @synthesize bounds = _bounds;
@@ -39,7 +42,13 @@
         _desc = [self textForSingleChildElementNamed:@"desc" xmlElement:element];
         _author = (GPXAuthor *)[self childElementOfClass:[GPXAuthor class] xmlElement:element];
         _copyright = (GPXCopyright *)[self childElementOfClass:[GPXCopyright class] xmlElement:element];
-        _link = (GPXLink *)[self childElementOfClass:[GPXLink class] xmlElement:element];
+
+        NSMutableArray *metadataLinks = [NSMutableArray array];
+        [self childElementsOfClass:[GPXLink class] xmlElement:element eachBlock:^(GPXElement *element) {
+            [metadataLinks addObject:element];
+        }];
+        _links = metadataLinks;
+        
         _timeValue = [self textForSingleChildElementNamed:@"time" xmlElement:element];
         _keyword = [self textForSingleChildElementNamed:@"keyword" xmlElement:element];
         _bounds = (GPXBounds *)[self childElementOfClass:[GPXBounds class] xmlElement:element];
@@ -87,8 +96,10 @@
         [self.copyright gpx:gpx indentationLevel:indentationLevel];
     }
 
-    if (self.link) {
-        [self.link gpx:gpx indentationLevel:indentationLevel];
+    if (self.links) {
+        for (GPXLink *link in self.links) {
+            [link gpx:gpx indentationLevel:indentationLevel];
+        }
     }
 
     [self gpx:gpx addPropertyForValue:_timeValue defaultValue:@"0" tagName:@"time" indentationLevel:indentationLevel];

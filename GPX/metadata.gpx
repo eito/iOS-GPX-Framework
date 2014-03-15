@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="ExpertGPS 1.9 a0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.topografix.com/GPX/Private/TopoGrafix/0/3 http://www.topografix.com/GPX/Private/TopoGrafix/0/3/topografix.xsd">
+<metadata>
+<name>Metadata Test</name>
+<desc>This is a demonstration of GPX metadata</desc>
+<author>
+<name>Dan Foster</name>
+<email id="gpx2004" domain="topografix.com"/>
+<link href="http://www.topografix.com">
+<text>TopoGrafix</text>
+</link>
+</author>
+<copyright author="Dan Foster">
+<year>2004</year>
+<license>http://creativecommons.org/licenses/by/2.0/</license>
+</copyright>
+<link href="http://www.topografix.com/gpx.asp">
+<text>GPX site</text>
+</link>
+<link href="http://www.topografix.com/gpx1.asp">
+<text>GPX site 1</text>
+</link>
+<time>2004-06-10T12:03:26Z</time>
+<keywords>gpx, style, metadata</keywords>
+<bounds minlat="40.451925327" minlon="-74.266517" maxlat="40.451925327" maxlon="-74.266517"/>
+<extensions>
+<active_point xmlns="http://www.topografix.com/GPX/Private/TopoGrafix/0/3" lat="40.4606481824082" lon="-74.2819017731053"/>
+</extensions>
+</metadata>
+<wpt lat="40.451925327" lon="-74.266517">
+<name>WAYPOINT</name>
+<cmt>WAYPOINT</cmt>
+<desc>Waypoint</desc>
+<sym>Tall Tower</sym>
+</wpt>
+<extensions>
+</extensions>
+</gpx>

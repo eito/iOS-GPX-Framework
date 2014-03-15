@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 NextBusinessSystem Co., Ltd. All rights reserved.
 //
 
-#import "GPXElement.h"
+@class GPXElement;
 
 
 /** An email address. Broken into two parts (id and domain) to help prevent email harvesting.

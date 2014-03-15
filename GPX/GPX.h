@@ -6,6 +6,9 @@
 //  Copyright (c) 2012 NextBusinessSystem Co., Ltd. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+#import <CoreGraphics/CoreGraphics.h>
+
 #import <GPX/GPXParser.h>
 #import <GPX/GPXConst.h>
 #import <GPX/GPXType.h>

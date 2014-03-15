@@ -6,10 +6,12 @@
 //  Copyright (c) 2012 NextBusinessSystem Co., Ltd. All rights reserved.
 //
 
+#import "GPXElement.h"
 #import "GPXWaypoint.h"
 #import "GPXElementSubclass.h"
 #import "GPXLink.h"
 #import "GPXExtensions.h"
+#import "GPXType.h"
 
 @implementation GPXWaypoint {
     NSString *_elevationValue;

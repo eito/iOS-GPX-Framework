@@ -6,8 +6,7 @@
 //  Copyright (c) 2012 NextBusinessSystem Co., Ltd. All rights reserved.
 //
 
-#import "GPXElement.h"
-
+@class GPXElement;
 
 /** You can add extend GPX by adding your own elements from another schema here. 
  */

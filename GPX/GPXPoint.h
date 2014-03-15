@@ -6,8 +6,6 @@
 //  Copyright (c) 2012 NextBusinessSystem Co., Ltd. All rights reserved.
 //
 
-#import "GPXElement.h"
-
 
 /** A geographic point with optional elevation and time. Available for use by other schemas.
  */

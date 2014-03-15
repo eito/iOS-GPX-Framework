@@ -6,9 +6,11 @@
 //  Copyright (c) 2012 NextBusinessSystem Co., Ltd. All rights reserved.
 //
 
+#import "GPXElement.h"
 #import "GPXTrackSegment.h"
 #import "GPXElementSubclass.h"
 #import "GPXExtensions.h"
+#import "GPXWaypoint.h"
 #import "GPXTrackPoint.h"
 
 @implementation GPXTrackSegment {

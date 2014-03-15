@@ -6,11 +6,14 @@
 //  Copyright (c) 2012 NextBusinessSystem Co., Ltd. All rights reserved.
 //
 
+#import "GPXElement.h"
 #import "GPXRoute.h"
 #import "GPXElementSubclass.h"
 #import "GPXLink.h"
 #import "GPXExtensions.h"
+#import "GPXWaypoint.h"
 #import "GPXRoutePoint.h"
+#import "GPXType.h"
 
 
 @implementation GPXRoute {

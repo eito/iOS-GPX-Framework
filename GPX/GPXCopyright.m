@@ -6,8 +6,10 @@
 //  Copyright (c) 2012 NextBusinessSystem Co., Ltd. All rights reserved.
 //
 
+#import "GPXElement.h"
 #import "GPXCopyright.h"
 #import "GPXElementSubclass.h"
+#import "GPXType.h"
 
 @implementation GPXCopyright {
     NSString *_yearValue;

@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 NextBusinessSystem Co., Ltd. All rights reserved.
 //
 
-#import "GPXPerson.h"
+@class GPXPerson;
 
 @interface GPXAuthor : GPXPerson
 

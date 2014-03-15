@@ -6,8 +6,8 @@
 //  Copyright (c) 2012 NextBusinessSystem Co., Ltd. All rights reserved.
 //
 
-#import "GPXElement.h"
 
+@class GPXElement;
 @class GPXAuthor;
 @class GPXCopyright;
 @class GPXLink;
@@ -37,8 +37,8 @@
 /** Copyright and license information governing use of the file. */
 @property (strong, nonatomic) GPXCopyright *copyright;
 
-/** URLs associated with the location described in the file. */
-@property (strong, nonatomic) GPXLink *link;
+/** NSArray of URLs associated with the location described in the file. */
+@property (copy, nonatomic) NSArray *links;
 
 /** The creation date of the file. */
 @property (strong, nonatomic) NSDate *time;

@@ -6,12 +6,15 @@
 //  Copyright (c) 2012 NextBusinessSystem Co., Ltd. All rights reserved.
 //
 
+#import "GPXElement.h"
 #import "GPXTrack.h"
 #import "GPXElementSubclass.h"
 #import "GPXLink.h"
 #import "GPXExtensions.h"
 #import "GPXTrackSegment.h"
+#import "GPXWaypoint.h"
 #import "GPXTrackPoint.h"
+#import "GPXType.h"
 
 @implementation GPXTrack {
     NSMutableArray *_links;
@@ -189,7 +192,7 @@
     [self gpx:gpx addPropertyForValue:_comment tagName:@"cmt" indentationLevel:indentationLevel];
     [self gpx:gpx addPropertyForValue:_desc tagName:@"desc" indentationLevel:indentationLevel];
     [self gpx:gpx addPropertyForValue:_source tagName:@"src" indentationLevel:indentationLevel];
-    
+
     for (GPXLink *link in self.links) {
         [link gpx:gpx indentationLevel:indentationLevel];
     }
