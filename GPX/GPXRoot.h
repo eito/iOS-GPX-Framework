@@ -6,6 +6,8 @@
 //  Copyright (c) 2012 NextBusinessSystem Co., Ltd. All rights reserved.
 //
 
+@import CoreGraphics;
+
 @class GPXMetadata;
 @class GPXWaypoint;
 @class GPXRoute;

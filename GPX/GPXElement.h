@@ -6,6 +6,8 @@
 //  Copyright (c) 2012 NextBusinessSystem Co., Ltd. All rights reserved.
 //
 
+@import Foundation;
+
 /** GPXElement is the root class of GPX element hierarchies. 
  */
 @interface GPXElement : NSObject

@@ -6,3 +6,6 @@
     #import <Foundation/Foundation.h>
     #import <UIKit/UIkit.h>
 #endif
+
+@import Foundation;
+@import CoreGraphics;

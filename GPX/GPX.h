@@ -6,8 +6,16 @@
 //  Copyright (c) 2012 NextBusinessSystem Co., Ltd. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import <CoreGraphics/CoreGraphics.h>
+#import <UIKit/UIKit.h>
+
+//! Project version number for gpx.
+FOUNDATION_EXPORT double gpxVersionNumber;
+
+//! Project version string for gpx.
+FOUNDATION_EXPORT const unsigned char gpxVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <gpx/PublicHeader.h>
+
 
 #import <GPX/GPXElement.h>
 #import <GPX/GPXParser.h>

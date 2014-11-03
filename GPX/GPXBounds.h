@@ -6,6 +6,7 @@
 //  Copyright (c) 2012 NextBusinessSystem Co., Ltd. All rights reserved.
 //
 
+@import CoreGraphics;
 
 /** Two lat/lon pairs defining the extent of an element.
  */

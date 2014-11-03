@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4EA1265018D526DA002E9B0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA1264F18D526DA002E9B0A /* Foundation.framework */; };
-		4EA1265218D526DA002E9B0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA1265118D526DA002E9B0A /* CoreGraphics.framework */; };
-		4EA1265418D526DA002E9B0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA1265318D526DA002E9B0A /* UIKit.framework */; };
 		4EA1265A18D526DA002E9B0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EA1265818D526DA002E9B0A /* InfoPlist.strings */; };
 		4EA1265C18D526DA002E9B0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA1265B18D526DA002E9B0A /* main.m */; };
 		4EA1266018D526DA002E9B0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA1265F18D526DA002E9B0A /* AppDelegate.m */; };
@@ -46,14 +43,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4EA1264C18D526DA002E9B0A /* GPXTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPXTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EA1264F18D526DA002E9B0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4EA1265118D526DA002E9B0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4EA1265318D526DA002E9B0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		4EA1265718D526DA002E9B0A /* GPXTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPXTest-Info.plist"; sourceTree = "<group>"; };
+		4EA1264C18D526DA002E9B0A /* GPXTest-static-static.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPXTest-static-static.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA1265718D526DA002E9B0A /* GPXTest-static-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPXTest-static-Info.plist"; sourceTree = "<group>"; };
 		4EA1265918D526DA002E9B0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4EA1265B18D526DA002E9B0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4EA1265D18D526DA002E9B0A /* GPXTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPXTest-Prefix.pch"; sourceTree = "<group>"; };
+		4EA1265D18D526DA002E9B0A /* GPXTest-static-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPXTest-static-Prefix.pch"; sourceTree = "<group>"; };
 		4EA1265E18D526DA002E9B0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4EA1265F18D526DA002E9B0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4EA1266218D526DA002E9B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -119,9 +113,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EA1265218D526DA002E9B0A /* CoreGraphics.framework in Frameworks */,
-				4EA1265418D526DA002E9B0A /* UIKit.framework in Frameworks */,
-				4EA1265018D526DA002E9B0A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +131,7 @@
 		4EA1264D18D526DA002E9B0A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4EA1264C18D526DA002E9B0A /* GPXTest.app */,
+				4EA1264C18D526DA002E9B0A /* GPXTest-static-static.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,9 +139,6 @@
 		4EA1264E18D526DA002E9B0A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4EA1264F18D526DA002E9B0A /* Foundation.framework */,
-				4EA1265118D526DA002E9B0A /* CoreGraphics.framework */,
-				4EA1265318D526DA002E9B0A /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -174,10 +162,10 @@
 			isa = PBXGroup;
 			children = (
 				4ED78F8418D52902001B8547 /* metadata.gpx */,
-				4EA1265718D526DA002E9B0A /* GPXTest-Info.plist */,
+				4EA1265718D526DA002E9B0A /* GPXTest-static-Info.plist */,
 				4EA1265818D526DA002E9B0A /* InfoPlist.strings */,
 				4EA1265B18D526DA002E9B0A /* main.m */,
-				4EA1265D18D526DA002E9B0A /* GPXTest-Prefix.pch */,
+				4EA1265D18D526DA002E9B0A /* GPXTest-static-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -244,9 +232,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4EA1264B18D526DA002E9B0A /* GPXTest */ = {
+		4EA1264B18D526DA002E9B0A /* GPXTest-static */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4EA1267E18D526DA002E9B0A /* Build configuration list for PBXNativeTarget "GPXTest" */;
+			buildConfigurationList = 4EA1267E18D526DA002E9B0A /* Build configuration list for PBXNativeTarget "GPXTest-static" */;
 			buildPhases = (
 				4EA1264818D526DA002E9B0A /* Sources */,
 				4EA1264918D526DA002E9B0A /* Frameworks */,
@@ -256,9 +244,9 @@
 			);
 			dependencies = (
 			);
-			name = GPXTest;
+			name = "GPXTest-static";
 			productName = GPXTest;
-			productReference = 4EA1264C18D526DA002E9B0A /* GPXTest.app */;
+			productReference = 4EA1264C18D526DA002E9B0A /* GPXTest-static-static.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -270,7 +258,7 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Eric Ito";
 			};
-			buildConfigurationList = 4EA1264718D526DA002E9B0A /* Build configuration list for PBXProject "GPXTest" */;
+			buildConfigurationList = 4EA1264718D526DA002E9B0A /* Build configuration list for PBXProject "GPXTest-static" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -283,7 +271,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4EA1264B18D526DA002E9B0A /* GPXTest */,
+				4EA1264B18D526DA002E9B0A /* GPXTest-static */,
 			);
 		};
 /* End PBXProject section */
@@ -445,10 +433,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GPXTest/GPXTest-Prefix.pch";
-				HEADER_SEARCH_PATHS = "/Source/github/iOS-GPX-Framework/**";
-				INFOPLIST_FILE = "GPXTest/GPXTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "GPXTest/GPXTest-static-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$SRCROOT/../**";
+				INFOPLIST_FILE = "GPXTest/GPXTest-static-Info.plist";
+				PRODUCT_NAME = "GPXTest-static-static";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -459,10 +447,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GPXTest/GPXTest-Prefix.pch";
-				HEADER_SEARCH_PATHS = "/Source/github/iOS-GPX-Framework/**";
-				INFOPLIST_FILE = "GPXTest/GPXTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "GPXTest/GPXTest-static-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$SRCROOT/../**";
+				INFOPLIST_FILE = "GPXTest/GPXTest-static-Info.plist";
+				PRODUCT_NAME = "GPXTest-static-static";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,7 +458,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4EA1264718D526DA002E9B0A /* Build configuration list for PBXProject "GPXTest" */ = {
+		4EA1264718D526DA002E9B0A /* Build configuration list for PBXProject "GPXTest-static" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4EA1267C18D526DA002E9B0A /* Debug */,
@@ -479,7 +467,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4EA1267E18D526DA002E9B0A /* Build configuration list for PBXNativeTarget "GPXTest" */ = {
+		4EA1267E18D526DA002E9B0A /* Build configuration list for PBXNativeTarget "GPXTest-static" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4EA1267F18D526DA002E9B0A /* Debug */,
